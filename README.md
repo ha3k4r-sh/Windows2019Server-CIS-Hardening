@@ -36,8 +36,8 @@ If you face any issue - please reach me at aadham.m@outlook.com
     [+] download the script
     
     wget https://raw.githubusercontent.com/ha3k4r-sh/Windows2019Server-CIS-Hardening/main/windows2019_server_hardening.ps1
-    .\windows2019_server_hardening.ps1
-    Start-DscConfiguration -Path .\windows2019_server_hardening.ps1  -Force -Verbose -Wait
+    .\windows2019_server_hardening.ps1 [Script will generate MOF files in directory]
+    Start-DscConfiguration -Path .\windows2019_server_hardening  -Force -Verbose -Wait
     
     
     
